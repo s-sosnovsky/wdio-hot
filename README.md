@@ -1,0 +1,2 @@
+# wdio-hot
+WDIO start
