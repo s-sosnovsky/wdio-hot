@@ -1,0 +1,33 @@
+{
+    "name": "wdio-hot",
+    "version": "1.0.0",
+    "description": "WDIO start",
+    "main": "index.js",
+    "scripts": {
+        "test": "npx wdio run ./wdio.conf.ts",
+        "wdio": "wdio run wdio.conf.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/s-sosnovsky/wdio-hot.git"
+    },
+    "keywords": [
+        "wdio"
+    ],
+    "author": "s-sosnovsky",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/s-sosnovsky/wdio-hot/issues"
+    },
+    "homepage": "https://github.com/s-sosnovsky/wdio-hot#readme",
+    "devDependencies": {
+        "@wdio/cli": "^7.16.12",
+        "@wdio/local-runner": "^7.16.12",
+        "@wdio/mocha-framework": "^7.16.11",
+        "@wdio/spec-reporter": "^7.16.11",
+        "chromedriver": "^96.0.0",
+        "ts-node": "^10.4.0",
+        "typescript": "^4.5.4",
+        "wdio-chromedriver-service": "^7.2.2"
+    }
+}
